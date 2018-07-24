@@ -15,6 +15,7 @@
 		28156DE1210722F00076D03D /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28156DDF210722F00076D03D /* TaskCell.xib */; };
 		28156DE3210723000076D03D /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28156DE2210723000076D03D /* CollectionViewController.swift */; };
 		28156DE5210723C10076D03D /* TaskCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28156DE4210723C10076D03D /* TaskCell2.swift */; };
+		287D76C2210726B60015EF46 /* CusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D76C1210726B60015EF46 /* CusCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		28156DDF210722F00076D03D /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 		28156DE2210723000076D03D /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		28156DE4210723C10076D03D /* TaskCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell2.swift; sourceTree = "<group>"; };
+		287D76C1210726B60015EF46 /* CusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				28156DCC210722A90076D03D /* AppDelegate.swift */,
 				28156DE2210723000076D03D /* CollectionViewController.swift */,
+				287D76C1210726B60015EF46 /* CusCollectionViewCell.swift */,
 				28156DDE210722F00076D03D /* TaskCell.swift */,
 				28156DE4210723C10076D03D /* TaskCell2.swift */,
 				28156DDF210722F00076D03D /* TaskCell.xib */,
@@ -148,6 +151,7 @@
 				28156DE3210723000076D03D /* CollectionViewController.swift in Sources */,
 				28156DE0210722F00076D03D /* TaskCell.swift in Sources */,
 				28156DCD210722A90076D03D /* AppDelegate.swift in Sources */,
+				287D76C2210726B60015EF46 /* CusCollectionViewCell.swift in Sources */,
 				28156DE5210723C10076D03D /* TaskCell2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

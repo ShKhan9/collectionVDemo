@@ -19,7 +19,7 @@ class CollectionViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-       // self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+     self.collectionView!.register(CusCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         
       self.collectionView!.register(UINib.init(nibName: "TaskCell", bundle: nil), forCellWithReuseIdentifier: "TaskCell")
 
@@ -65,15 +65,21 @@ class CollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
    
-        if indexPath.row % 2 == 0 {
+        if indexPath.row % 3 == 0 {
             
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TaskCell", for: indexPath)
             
             return cell
         }
-        else {
+        else if indexPath.row % 3 == 1 {
             
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TaskCell2", for: indexPath)
+            
+            return cell
+        }
+        else  {
+            
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
             
             return cell
         }
